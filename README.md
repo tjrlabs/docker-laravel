@@ -1,6 +1,6 @@
 # Laravel Docker Compose Project
 
-This project provides a Docker Compose setup for running Laravel applications in development. It includes containers for PHP (with Composer), Nginx, MySQL, and optionally, Redis.
+This project provides a Docker Compose setup for running Laravel applications in development. It includes containers for PHP, MySQL, Nginx, Composer, Artisan and npm.
 
 ## Prerequisites
 
@@ -41,12 +41,12 @@ Make sure you have Docker and Docker Compose installed on your machine.
   Open http://localhost:8000 in your web browser.
 
 # Services
-* Nginx: Web server serving the Laravel application.
-* PHP: PHP-FPM container.
-* Composer: For laravel dependencies
-* MySQL: Database server for storing application data.
-* Artisan: For laravel artisan commands
-* npm: For dependencies
+   * Nginx: Web server serving the Laravel application.
+   * PHP: PHP-FPM container.
+   * Composer: For laravel dependencies
+   * MySQL: Database server for storing application data.
+   * Artisan: For laravel artisan commands
+   * npm: For dependencies
 
 # Running Commands
   To run Composer commands, run:
